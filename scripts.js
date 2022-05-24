@@ -6,15 +6,18 @@ console.log(registerButton);
 
 registerButton.onclick = () => {
     console.log("Clicked register!");
+    registerButton.className = "active";
     modal.style.display = "block";
 };
 
 closeButton.onclick = () => {
+    registerButton.className = "inactive";
     modal.style.display = "none";
 };
 
 window.onclick = event => {
     if (event.target == modal) {
+        registerButton.className = "inactive";
         modal.style.display = "none";
     }
 }
