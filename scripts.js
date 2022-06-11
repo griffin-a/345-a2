@@ -12,24 +12,17 @@ closeButton.onclick = () => {
     closeModal();
 };
 
-submitButton.onclick = () => {
-    closeModal();
-}
-
 window.onclick = event => {
     if (event.target == modal) {
-        // registerButton.className = "inactive";
         modal.style.display = "none";
     }
 }
 
 const closeModal = () => {
-    // registerButton.className = "inactive";
     modal.style.display = "none";
 }
 
 const openModal = () => {
     console.log("Clicked register!");
-    // registerButton.className = "active";
     modal.style.display = "block";
 }
