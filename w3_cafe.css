@@ -305,6 +305,22 @@ a {
   cursor: pointer;
   white-space: nowrap;
 }
+
+.w3-button-logo {
+  /* border: none; */
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  /* background-color: inherit; */
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.w3-button-logo:hover, 
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1622,17 +1638,44 @@ a {
 
 /* Custom colors */
 .custom-color {
-    color: #f80000;
+  color: #f80000;
+}
+
+.custom-color-bg {
+  /* This is the same color, just defined in rgba so that transparency can be used*/
+  background: rgba(248, 0, 0, 0.85);
 }
 
 .custom-color-light {
-    color: #FF6161;
+  color: #ff6161;
 }
 
 .custom-color-light-bg {
-    background-color: #FF6161;
+  background-color: #ff6161;
 }
 
 .text-white {
-    color: white !important;
+  color: white !important;
+}
+
+.w3-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.w3-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px;
 }
