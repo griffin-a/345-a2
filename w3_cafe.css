@@ -1619,3 +1619,20 @@ a {
 .w3-hover-border-pale-blue:hover {
   border-color: #e7ffff !important;
 }
+
+/* Custom colors */
+.custom-color {
+    color: #f80000;
+}
+
+.custom-color-light {
+    color: #FF6161;
+}
+
+.custom-color-light-bg {
+    background-color: #FF6161;
+}
+
+.text-white {
+    color: white !important;
+}
