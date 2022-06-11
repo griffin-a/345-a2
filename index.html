@@ -64,25 +64,21 @@ h1, h2, h3, h4, h5, h6 {
     <div class="w3-col l6 w3-padding-large">
       <h1 class="custom-color w3-center">What is it?</h1><br>
       <h4 class="custom-color-light">
-        <i class="fa fa-solid fa-calculator w3-xxlarge" aria-hidden="true" style="vertical-align:baseline;"></i>
         A Calculator
       </h4>
       <p class="w3-text-grey w3-large">Directly quantify and compare your impact on the environment to others</p><br>
     
       <h4 class="custom-color-light">
-        <i class="fa fa-solid fa-lightbulb-on w3-xxlarge" aria-hidden="true" style="vertical-align:baseline;"></i>
         A Solution
       </h4>
       <p class="w3-text-grey w3-large">Understanding the problem is the first step in solving it</p><br>
     
       <h4 class="custom-color-light">
-        <i class="fa fa-solid fa-signs-post w3-xxlarge" aria-hidden="true" style="vertical-align:baseline;"></i>
         A Sustainable Way of Life
       </h4>
       <p class="w3-text-grey w3-large">Our insights will help guide you to a more sustainable way of life</p><br>
     
       <h4 class="custom-color-light">
-        <i class="fa fa-solid fa-magnifying-glass w3-xxlarge" aria-hidden="true" style="vertical-align:baseline;"></i>
         A New Perspective
       </h4>
       <p class="w3-text-grey w3-large">Reveal details and insights that you might not have previously considered or known</p><br>    
@@ -126,9 +122,11 @@ h1, h2, h3, h4, h5, h6 {
       <h1 class="text-white">Register</h1>
     </div>
     <div class="w3-container">
-      <p>Register an account with us:</p>
+      <!-- <p class="w3-medium">Register an account with us:</p> -->
     
       <form target="_blank">
+        <div id="userDetails">
+        <h4>User Details</h4>
         <p>
           <input
             class="w3-input w3-padding-16 w3-border"
@@ -165,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
             name="Password"
           />
         </p>
+      </div>
+
+      <div id="addresses">
+        <h4>Addresses</h4>
         <p>
           <input
             class="w3-input w3-padding-16 w3-border"
@@ -183,6 +185,9 @@ h1, h2, h3, h4, h5, h6 {
             name="Work address"
           />
         </p>
+      </div>
+      <div id="contacts">
+        <h4>Contact Details</h4>
         <p>
           <input
             class="w3-input w3-padding-16 w3-border"
@@ -192,7 +197,17 @@ h1, h2, h3, h4, h5, h6 {
             name="Mobile number"
           />
         </p>
-        <p><button id="form-submit" class="w3-button" type="submit">Register</button></p>
+        <p>
+          <input
+            class="w3-input w3-padding-16 w3-border"
+            type="number"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+        </p>
+      </div>
+        <p><button id="form-submit" class="w3-button w3-large" type="submit">Register</button></p>
       </form>
     </div>
   </div>

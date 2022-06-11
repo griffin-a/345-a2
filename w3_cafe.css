@@ -320,7 +320,7 @@ a {
   white-space: nowrap;
 }
 
-.w3-button-logo:hover, 
+.w3-button-logo:hover,
 .w3-btn:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1226,7 +1226,7 @@ a {
   float: right !important;
 }
 
-.w3-button-logo:hover, 
+.w3-button-logo:hover,
 .w3-button:hover {
   color: #000 !important;
   background-color: #ccc !important;
@@ -1661,5 +1661,16 @@ a {
 }
 
 #trigger-modal {
-    border-radius: 25px;
+  border-radius: 25px;
+}
+
+#userDetails {
+  padding-bottom: 20px;
+}
+
+#addresses {
+  padding-bottom: 20px;
+}
+
+#contacts {
 }
