@@ -1659,3 +1659,7 @@ a {
 .text-white {
   color: white !important;
 }
+
+#trigger-modal {
+    border-radius: 25px;
+}
