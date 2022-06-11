@@ -1662,6 +1662,11 @@ a {
 
 #trigger-modal {
   border-radius: 25px;
+  background-color: white;
+}
+
+#trigger-modal:hover {
+  color: black !important;
 }
 
 #userDetails {
